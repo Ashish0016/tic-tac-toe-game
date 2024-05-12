@@ -1,0 +1,13 @@
+<div class="flex flex-col w-1/3 mx-auto text-center pt-8">
+    <span class="font-bold font-sans text-3xl p-2">Tic Tac Toe</span>
+    <span class="pt-3 font-mono text-xl">{{playerRound}}</span>
+</div>
+<div
+    class="grid grid-cols-3 text-center place-content-center h-1/2 mt-8 shadow-lg rounded-lg bg-slate-700 text-white w-1/3 p-8 mx-auto">
+    <div class="{{item.classList}}" *ngFor="let item of ticTacToe" (click)="play(item.id)">
+        <i class="{{item.iconClass}}"></i>
+    </div>
+</div>
+<div class="flex flex-row w-1/3 mx-auto justify-center pt-4">
+    <button class="border rounded-lg bg-slate-700 py-2 px-4 text-white font-medium" (click)="replay()">Replay</button>
+</div>
