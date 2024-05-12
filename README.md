@@ -1,5 +1,9 @@
-# Tic Tac Toe Game
+# tic-tac-toe-game
+## Tic Tac Toe Game using Angular
+
 Screenshot
+![image](https://github.com/Ashish0016/tic-tac-toe-game/assets/65064870/15891972-649f-435e-a7e2-26c45c3b6b0d)
+
 
 Follow below commands to run project
 1. Clone the repo
